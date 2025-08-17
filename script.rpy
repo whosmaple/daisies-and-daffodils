@@ -21,24 +21,22 @@ label start:
 
     scene special scene 1
 
-    show heightupdatedjanuary at left
-    show heightupdatedfinn at right
-
-    "I was just sitting in class doing my work, when a friend of mine I hadn’t seen in a while came and sat on the desk beside me."
+    j "{i}I was just sitting in class doing my work, when a friend of mine I hadn’t seen in a while came and sat on the desk beside me.{/i}"
 
     scene special scene 2
 
-    "I looked up at him in confusion. It had been about 2 weeks since I last heard from him, and here he was all of a sudden, sitting beside me, quite rudely, on a desk."
-    j "Finn, you’re back…"
+    j "{i}It was weird, to say the least. It had been about 2 weeks since I last heard from him, and here he was all of a sudden, sitting beside me quite rudely on a desk, not even acknowledging my presence.{/i}"
+    j "Oh, you’re back. Hi."
 
     scene special scene 3
 
+    j "{i}He looked at me, a distant look in his eyes, like he heard me but couldn’t quite recognize his own name.{/i}"
     j "Were you sick? It’s been so long."
-    "He blinked at me before rapidly looking around us as if looking for someone or something that wasn’t there"
+    j "{i}He blinked at me like I was the one acting weird and whipped his head around as if it wasn’t me that was talking to him.{/i}"
     f "Me? What?"
-    "He had a horrified look in his eyes. I thought maybe I said something wrong"
+    j "{i}He almost looked horrified… or shocked? I thought maybe I said something wrong.{/i}"
     f "Are you talking to me? Wait. Wh… Huh?"
-    "Something happened in the time he was gone, I was sure. The look on his face and his change in mannerisms since I saw him concerned me"
+    j "{i}I guessed something happened when he was gone, more than just being sick. The look on his face and his change in mannerisms since I last saw him was weird, even for him.{/i}"
 
     scene classroom dialogue background
 
@@ -49,12 +47,12 @@ label start:
     show january worried at left
     show finn shocked at right
 
-    f "Can you see me?"
+    f "Can you see me? You’re talking to me?"
 
     hide finn shocked
     show january neutral at centre
 
-    "I thought maybe he had a fever. I couldn’t think of any other explanation for a question so unexpected after having disappeared from school for a couple weeks"
+    j "{i}I thought maybe he had a fever. I couldn’t think of any other explanation for a question so out there after having disappeared from school for a couple weeks. Fevers do weird things to people right?{/i}"
 
     show january worried at centre
     
@@ -78,32 +76,35 @@ label start:
     hide teacher stern
     show january awkward
 
-    "The teacher had interrupted me before I could continue; scolding me for talking during class"
-    "I looked around the room and found most of the class staring at me, whispering to one another"
+    j "{i}The teacher interrupted me before I could continue; scolding me for talking during class.{/i}"
+    j "{i}I looked around the room and found most of the class staring at me, whispering to one another.{/i}"
 
     show january worried
 
     j "Sorry."
 
-    "I couldn’t hold back my concern for Finn though and chose to speak in a whisper"
+    j "{i}This was too weird to ignore. I spoke to Finn in a whisper instead, hoping the teacher wouldn’t hear.{/i}"
 
     show january worried at left
     show finn neutral at right
 
-    j "Is it okay if I check your temperature? Just with the back of my hand–"
+    j "Is it okay if I check your temperature? Just with the back of my hand..."
 
     hide finn neutral
 
-    "He hopped off the desk before I could finish and just when I thought he was going to sit down beside me he climbed up onto the desk clumsily"
+    j "{i}I forgot what I was saying when I watched him hop off the desk. I thought he was finally just going to sit down normally.{/i}"
+    j "{i}Not even close.{/i}"
     
     show january shocked
 
     j "What… What are you doing? Finn?"
+    j "{i}I watched as he climbed… really clumsily… on top of the desk.{/i}"
 
     show january shocked at left
     show finn clapping his hands at right
 
-    "And then out of no where he started clapping his hands while standing on the desk"
+    j "{i}Nothing made any sense at the time. I asked him what was wrong, and he got angry… Or confused?... Angrily confused?{/i}"
+    j "{i}And then next thing I knew he was up on the desk clapping his hands like there were no consequences to his actions.{/i}"
 
     hide finn clapping his hands
     show january shocked at centre
@@ -118,8 +119,8 @@ label start:
     hide teacher stern
     show january stern
 
-    "I looked up at Finn in confusion"
-    "I was even slightly mad. Finn knew how much I enjoy this class, yet he was being disruptive and I was the one in trouble for it"
+    j "{i}I don’t even know. I looked up at him, the best way to describe how I felt was also just angrily confused.{/i}"
+    j "{i}Finn knew how much I enjoy this class, knew I hated getting into any kind of conflict. Yet, he was being disruptive and I was the one in trouble for it.{/i}"
 
     hide january stern
     show finn stern
@@ -140,31 +141,32 @@ label start:
     hide teacher neutral
     show january awkward
 
-    j "Yes, please excuse us. I’m sorry."
+    j "Yeah. Um. Please excuse us. I’m sorry."
 
     scene outside classroom dialogue background
     hide january awkward
     show january concerned
 
-    j "Finn, what are you talking about?"
+    j "I’m confused."
 
     show january concerned at left
     show finn awkward at right
 
     f "Sorry… Yeah… This all sounds insane, doesn’t it? Also sorry for getting you in trouble, I just really needed to like… confirm this is happening? I still can’t believe it."
+    f "That you could see me, that is…"
     f "I’m not really thinking right now, it’s been like 2 weeks or something since… I just– God"
     f "I really don’t know what’s going on."
-    "{i}I don’t think I’ve ever seen Finn like this before, so… emotional? We haven't known each other for long, but he never seemed like the type to just break down in front of people like this.{/i}"
-    "{i}This is really all unbelievable. Something happened, he doesn’t know what, and now he’s invisible?{/i}"
-    "{i}How is that even physically possible? Nothing makes sense. Maybe I’m seeing things.{/i}"
-    "{i}Maybe I’m imagining all this.{/i}"
-    "{i}Or maybe I’m still sleeping{/i}"
-    "{i}That would make more sense.{/i}"
+    j "{i}I don’t think I’ve ever seen Finn like this before, so… emotional? We haven't known each other for long, but he never seemed like the type to just break down in front of people like this. Respectfully.{/i}"
+    j "{i}This is really all unbelievable. Something happened, he doesn’t know what, and now he’s like… invisible? But I can see him.{/i}"
+    j "{i}That stuff’s not even physically possible, right? Nothing makes sense. Maybe I’m seeing things.{/i}"
+    j "{i}Maybe I’m imagining all this. Maybe I’m the one with the fever or something.{/i}"
+    j "{i}Or maybe I’m still sleeping.{/i}"
+    j "{i}That would make more sense.{/i}"
 
     hide finn awkward
     show finn concerned at right
 
-    f "January? Look, I’m sorry. This is a lot. I wish I could tell you what’s going on."
+    f "January? You good? Look, I’m sorry. This is a lot. I wish I could tell you what’s going on."
 
     hide january concerned
     show january awkward at left
@@ -174,18 +176,18 @@ label start:
     hide finn concerned
     show finn desparate at right
 
-    f "January! I’m real! I’m sorry, I know it’s confusing, I’m confused too. I’m really here though, please, I don’t want to be alone again."
-    "{i}Alone again…{/i}"
-    "{i}I know how that feels{/i}"
+    f "January! I’m real, I’m here! I’m sorry, I know it’s confusing, I’m confused too. I’m really here though, please, I don’t want to be alone again."
+    j "{i}Alone again…{/i}"
+    j "{i}I know how that feels.{/i}"
 
     hide january awkward
     show january worried at left
 
-    j "Are you, um, sure you’re invisible?"
+    j "Are you, uh, sure you’re invisible?"
 
     show finn stern at right
 
-    f "January I’m pretty sure I’m invisible. Pretty sure I have been for the past however long it’s been."
+    f "January, I’m pretty sure I’m invisible. Pretty sure I have been for the past however long it’s been."
 
     show january awkward at left
 
@@ -201,8 +203,8 @@ label start:
 
     show january neutral at left
 
-    "{i}I do. It’d be hard to believe that he’s not really standing here right in front of me{/i}"
-    j "Can you do that again? Try and draw some attention to yourself, I mean."
+    j "{i}I do. It’d be hard to believe that he’s not really standing here right in front of me. This is really scarily real.{/i}"
+    j "Can you do that again? Clap or… Try and draw some attention to yourself, I mean."
 
     show finn neutral at right
 
@@ -211,7 +213,7 @@ label start:
     hide finn neutral
     hide january neutral
 
-    "I reached for the door knob but before I could grab ahold of it the door flung open, hitting Finn in the face"
+    "I reached for the door knob but before I could grab a hold of it the door flung open… Hitting Finn in the face…"
 
     show january shocked
 
@@ -233,16 +235,16 @@ label start:
     hide finn awkward
     show teacher neutral
 
-    t "Oh. Right, yes. I apologise, I know you were good friends, but at this time we’ve been asked to keep everything confidential. He’s okay though."
-    "{i}Yeah, he sure sounds 'okay'{/i}"
-    "{i}Wait, what?{/i}"
-    "Finn and I shared a terrified look"
+    t "Oh. Right, yes. I apologise, I know you were good friends, but at this time we’ve been asked to keep everything confidential. He’ll be okay though."
+    j "{i}Yeah, he sure sounds 'okay'{/i}"
+    j "{i}Wait, what?{/i}"
+    "Finn and I shared a terrified look."
 
     show teacher neutral at right
     show january worried at left
 
     j "I'll be there in a minute..."
-    "I waited until after the teacher had gone back in the room to talk to Finn"
+    "I waited until the teacher left and was fully out of view before I turned back to Finn."
 
     hide teacher neutral
     show january awkward
