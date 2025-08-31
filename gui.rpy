@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -50,35 +50,54 @@ define gui.muted_color = '#e066a3'
 define gui.hover_muted_color = '#ea99c1'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#404040'
+define gui.text_color = '#ffffff'
 define gui.interface_text_color = '#404040'
+define gui.name_text_color = '#ffffff'
 
+define gui.dialogue_text_outlines = [ (2, "#904332", 0, 0) ]
+define gui.dialogue_outline_scaling = "linear"
+define gui.name_text_outlines = [ (2, "#904332", 0, 0) ]
+define gui.name_outline_scaling = "linear"
 
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/Gaegu-Regular.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/Gaegu-Bold.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/Gaegu-Regular.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 22
+define gui.text_size = 35
+
+## The position of the dialogue text
+style say_dialogue:
+    xpos 200         # Horizontal position
+    ypos 50          # Vertical position
+    xanchor 0.0
+    yanchor 0.2
 
 ## The size of character names.
-define gui.name_text_size = 30
+define gui.name_text_size = 50
+
+## The position of the character name GUI
+style namebox:
+    xpos 200         # Horizontal position
+    ypos 50          # Vertical position
+    xanchor 0.0
+    yanchor 1.0
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 22
+define gui.interface_text_size = 40
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 24
+define gui.label_text_size = 40
 
 ## The size of text on the notify screen.
-define gui.notify_text_size = 16
+define gui.notify_text_size = 30
 
 ## The size of the game's title.
 define gui.title_text_size = 50
